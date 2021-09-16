@@ -1,5 +1,5 @@
 # CQL and KFC
-Self-contained implementation of  KFC, CQL and S4RL (CQL-Noise). Based on SAC. Copyright the main author of the NeurIPS submission Nr.: 8774. Please do not distribute.
+Self-contained implementation of  KFC, CQL and S4RL (CQL-Noise). Based on SAC. Copyright Matthias Weissenbacher. Please do not distribute.
 
 # Requirements
 Tested on [D4RL](https://github.com/rail-berkeley/d4rl) and [Mujoco](http://www.mujoco.org/) continuous control tasks in [OpenAI gym](https://gym.openai.com/). 
