@@ -1,15 +1,18 @@
 # KFC
-Koopman Forward Conservative Q-learning enabling Exploration 
+Koopman Forward Conservative Q-learning from the paper [Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics](https://arxiv.org/abs/2111.01365).
 
-# Codebase for CQL and KFC
-Self-contained implementation of  KFC, CQL and S4RL (CQL-Noise). Based on SAC. Copyright Matthias Weissenbacher. Please do not distribute.
+# CQL and KFC
+Self-contained implementation of  [KFC](https://arxiv.org/abs/2111.01365), [CQL](https://arxiv.org/abs/2006.04779) and [S4RL](https://arxiv.org/abs/2103.06326) (CQL-Noise). Based on SAC. Supplemnatry code to the KFC-paper.
+
+# Disclaimer
+The CQL codebase differs from the one used in the paper; thus this code won't reproduce the reults in the KFC-paper. We may release the full CQL codebase in the future. Meanhwile have fun & stay foolish;) THe KFC part is indentical to the one in the paper so it may be integrated into your own propoerly benchmarked CQL-codebase.
 
 # Requirements
 Tested on [D4RL](https://github.com/rail-berkeley/d4rl) and [Mujoco](http://www.mujoco.org/) continuous control tasks in [OpenAI gym](https://gym.openai.com/). 
 
 
 # Usage
-To run the baseline experiments run the following for CQL:
+To run the CQL-"baseline" experiments run the following for CQL:
 ```
 nohup python3 -u main.py \
         --env  "halfcheetah-medium-v0" \
@@ -17,7 +20,7 @@ nohup python3 -u main.py \
         --cuda_device 0 \
          &>  hc.out &
 ```
-and for CQL-noise:
+and for S4RL i.e. CQL-noise:
 ```
 nohup python3 -u main.py \
         --env  "halfcheetah-medium-v0" \
