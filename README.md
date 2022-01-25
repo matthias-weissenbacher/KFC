@@ -1,5 +1,5 @@
 # KFC
-Koopman Forward Conservative Q-learning from the paper [Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics](https://arxiv.org/abs/2111.01365).
+Koopman Forward Conservative (KFC) Q-learning from the paper [Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics](https://arxiv.org/abs/2111.01365).
 
 # CQL and KFC
 Self-contained implementation of  [KFC](https://arxiv.org/abs/2111.01365), [CQL](https://arxiv.org/abs/2006.04779) and [S4RL](https://arxiv.org/abs/2103.06326) (CQL-Noise). Based on SAC. Supplemnatry code to the KFC-paper.
